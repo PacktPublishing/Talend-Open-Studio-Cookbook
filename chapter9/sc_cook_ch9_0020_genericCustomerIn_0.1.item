@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_9LXnIO5cEeK5lbCLDXXL7Q" dataPackage="_9LXnIe5cEeK5lbCLDXXL7Q"/>
+  <TalendMetadata:GenericPackage xmi:id="_9LXnIe5cEeK5lbCLDXXL7Q" dataManager="_9LXnIO5cEeK5lbCLDXXL7Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_9LXnIu5cEeK5lbCLDXXL7Q" name="metadata" id="_9K2CsO5cEeK5lbCLDXXL7Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LXnI-5cEeK5lbCLDXXL7Q" name="customerId" label="customerId" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;" originalLength="10">
+        <initialValue xmi:id="_9LXnJO5cEeK5lbCLDXXL7Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LXnJe5cEeK5lbCLDXXL7Q" name="name" label="name" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="30">
+        <initialValue xmi:id="_9LXnJu5cEeK5lbCLDXXL7Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LXnJ-5cEeK5lbCLDXXL7Q" name="age" label="age" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;" originalLength="3">
+        <initialValue xmi:id="_9LXnKO5cEeK5lbCLDXXL7Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LXnKe5cEeK5lbCLDXXL7Q" name="homeAddressLine1" label="homeAddressLine1" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="50">
+        <initialValue xmi:id="_9LXnKu5cEeK5lbCLDXXL7Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LXnK-5cEeK5lbCLDXXL7Q" name="homeAddressTown" label="homeAddressTown" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="50">
+        <initialValue xmi:id="_9LXnLO5cEeK5lbCLDXXL7Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LXnLe5cEeK5lbCLDXXL7Q" name="homeAddressPostcode" label="homeAddressPostcode" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="10">
+        <initialValue xmi:id="_9LXnLu5cEeK5lbCLDXXL7Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LXnL-5cEeK5lbCLDXXL7Q" name="workAddressLine1" label="workAddressLine1" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="50">
+        <initialValue xmi:id="_9LXnMO5cEeK5lbCLDXXL7Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LXnMe5cEeK5lbCLDXXL7Q" name="workAddressTown" label="workAddressTown" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="50">
+        <initialValue xmi:id="_9LXnMu5cEeK5lbCLDXXL7Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9LXnM-5cEeK5lbCLDXXL7Q" name="workAddressPostcode" label="workAddressPostcode" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="10">
+        <initialValue xmi:id="_9LXnNO5cEeK5lbCLDXXL7Q"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
