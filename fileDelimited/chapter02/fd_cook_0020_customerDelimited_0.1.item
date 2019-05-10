@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_LQak4ZlbEeK3-suGuCne6w" name="fd_cook_0020_customerDelimited" dataPackage="_LQak4plbEeK3-suGuCne6w" Server="Localhost 127.0.0.1" FilePath="C:/Users/edexe/Documents/personal/Talend Book/bookData/chapter2/chapter2_jo_0000_customerData.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_LQak4plbEeK3-suGuCne6w" name="default" dataManager="_LQak4ZlbEeK3-suGuCne6w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_LQak45lbEeK3-suGuCne6w" name="metadata" id="_98i7EJlaEeK3-suGuCne6w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LQak5JlbEeK3-suGuCne6w" name="name" label="name" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_LQak5ZlbEeK3-suGuCne6w" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LQak5plbEeK3-suGuCne6w" name="dateOfBirth" label="dateOfBirth" length="-1" precision="-1" sourceType="" talendType="id_Date" pattern="&quot;dd/MM/yyyy&quot;">
+        <initialValue xmi:id="_LQak55lbEeK3-suGuCne6w" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LQak6JlbEeK3-suGuCne6w" name="timestamp" label="timestamp" length="-1" precision="-1" sourceType="" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;">
+        <initialValue xmi:id="_LQak6ZlbEeK3-suGuCne6w" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LQak6plbEeK3-suGuCne6w" name="age" label="age" length="10" precision="-1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_LQak65lbEeK3-suGuCne6w" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_77pNkJu7EeKgc8AHvYOJrg" dataPackage="_77pNkZu7EeKgc8AHvYOJrg"/>
+  <TalendMetadata:GenericPackage xmi:id="_77pNkZu7EeKgc8AHvYOJrg" dataManager="_77pNkJu7EeKgc8AHvYOJrg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_77pNkpu7EeKgc8AHvYOJrg" name="metadata" id="_77k8IJu7EeKgc8AHvYOJrg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_77pNk5u7EeKgc8AHvYOJrg" name="name" label="name" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_77pNlJu7EeKgc8AHvYOJrg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_77p0oJu7EeKgc8AHvYOJrg" name="age" label="age" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_77p0oZu7EeKgc8AHvYOJrg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_77p0opu7EeKgc8AHvYOJrg" name="addressLine1" label="addressLine1" length="150" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_77p0o5u7EeKgc8AHvYOJrg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_77p0pJu7EeKgc8AHvYOJrg" name="addressLine2" label="addressLine2" length="150" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_77p0pZu7EeKgc8AHvYOJrg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_77p0ppu7EeKgc8AHvYOJrg" name="city" label="city" length="150" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_77p0p5u7EeKgc8AHvYOJrg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_77p0qJu7EeKgc8AHvYOJrg" name="country" label="country" length="150" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_77p0qZu7EeKgc8AHvYOJrg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_77p0qpu7EeKgc8AHvYOJrg" name="postcode" label="postcode" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_77p0q5u7EeKgc8AHvYOJrg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_77p0rJu7EeKgc8AHvYOJrg" name="annualSpend2011" label="annualSpend2011" length="8" precision="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_77p0rZu7EeKgc8AHvYOJrg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_77p0rpu7EeKgc8AHvYOJrg" name="annualSpend2012" label="annualSpend2012" length="8" precision="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_77p0r5u7EeKgc8AHvYOJrg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_77p0sJu7EeKgc8AHvYOJrg" name="annualSpend2013" label="annualSpend2013" length="8" precision="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_77p0sZu7EeKgc8AHvYOJrg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_77p0spu7EeKgc8AHvYOJrg" name="qtr1Spend2011" label="qtr1Spend2011" length="8" precision="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_77p0s5u7EeKgc8AHvYOJrg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_77p0tJu7EeKgc8AHvYOJrg" name="qtr2Spend2011" label="qtr2Spend2011" length="8" precision="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_77p0tZu7EeKgc8AHvYOJrg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_77p0tpu7EeKgc8AHvYOJrg" name="qtr3Spend2011" label="qtr3Spend2011" length="8" precision="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_77p0t5u7EeKgc8AHvYOJrg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_77p0uJu7EeKgc8AHvYOJrg" name="qtr4Spend2011" label="qtr4Spend2011" length="8" precision="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_77p0uZu7EeKgc8AHvYOJrg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_77p0upu7EeKgc8AHvYOJrg" name="qtr1Spend2012" label="qtr1Spend2012" length="8" precision="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_77p0u5u7EeKgc8AHvYOJrg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_77p0vJu7EeKgc8AHvYOJrg" name="qtr2Spend2012" label="qtr2Spend2012" length="8" precision="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_77p0vZu7EeKgc8AHvYOJrg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_77p0vpu7EeKgc8AHvYOJrg" name="qtr3Spend2012" label="qtr3Spend2012" length="8" precision="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_77p0v5u7EeKgc8AHvYOJrg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_77p0wJu7EeKgc8AHvYOJrg" name="qtr4Spend2012" label="qtr4Spend2012" length="8" precision="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_77p0wZu7EeKgc8AHvYOJrg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_77p0wpu7EeKgc8AHvYOJrg" name="qtr1Spend2013" label="qtr1Spend2013" length="8" precision="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_77p0w5u7EeKgc8AHvYOJrg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_77p0xJu7EeKgc8AHvYOJrg" name="qtr2Spend2013" label="qtr2Spend2013" length="8" precision="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_77p0xZu7EeKgc8AHvYOJrg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_77p0xpu7EeKgc8AHvYOJrg" name="qtr3Spend2013" label="qtr3Spend2013" length="8" precision="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_77p0x5u7EeKgc8AHvYOJrg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_77p0yJu7EeKgc8AHvYOJrg" name="qtr4Spend2013" label="qtr4Spend2013" length="8" precision="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_77p0yZu7EeKgc8AHvYOJrg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

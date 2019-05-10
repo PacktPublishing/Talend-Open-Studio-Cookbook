@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_UTyGAJlfEeK3-suGuCne6w" dataPackage="_UTyGAZlfEeK3-suGuCne6w"/>
+  <TalendMetadata:GenericPackage xmi:id="_UTyGAZlfEeK3-suGuCne6w" dataManager="_UTyGAJlfEeK3-suGuCne6w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_UTyGAplfEeK3-suGuCne6w" name="metadata" id="_TyJ_oZlfEeK3-suGuCne6w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UTyGA5lfEeK3-suGuCne6w" name="name" label="name" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_UTyGBJlfEeK3-suGuCne6w" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UTyGBZlfEeK3-suGuCne6w" name="dateOfBirth" label="dateOfBirth" length="-1" precision="-1" sourceType="" talendType="id_Date" pattern="&quot;dd/MM/yyyy&quot;">
+        <initialValue xmi:id="_UTyGBplfEeK3-suGuCne6w" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UTyGB5lfEeK3-suGuCne6w" name="timestamp" label="timestamp" length="-1" precision="-1" sourceType="" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;">
+        <initialValue xmi:id="_UTyGCJlfEeK3-suGuCne6w" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UTyGCZlfEeK3-suGuCne6w" name="age" label="age" length="10" precision="-1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_UTyGCplfEeK3-suGuCne6w" body=""/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="cookbookWeatherService"
+		xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+		xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:tns="http://www.talend.org/service/"
+		targetNamespace="http://www.talend.org/service/">
+
+	<wsdl:types>
+		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			targetNamespace="http://www.talend.org/service/">
+			<xsd:element name="GetWeatherRequest">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="city" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="GetWeatherResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="weather" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:schema>
+	</wsdl:types>
+
+	<wsdl:message name="GetWeatherRequest">
+		<wsdl:part name="parameters" element="tns:GetWeatherRequest"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="GetWeatherResponse">
+		<wsdl:part name="parameters" element="tns:GetWeatherResponse"></wsdl:part>
+	</wsdl:message>
+
+	<wsdl:portType name="GetWeather">
+		<wsdl:operation name="GetWeather">
+			<wsdl:input message="tns:GetWeatherRequest"></wsdl:input>
+			<wsdl:output message="tns:GetWeatherResponse"></wsdl:output>
+		</wsdl:operation>
+	</wsdl:portType>
+
+	<wsdl:binding name="cookbookWeatherServiceBinding" type="tns:GetWeather">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+		<wsdl:operation name="GetWeather">
+			<soap:operation soapAction="http://www.talend.org/service/GetWeather" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+
+	<wsdl:service name="cookbookWeatherService">
+		<wsdl:port name="WeatherSoap" binding="tns:cookbookWeatherServiceBinding">
+			<soap:address location="http://localhost:8090/services/cookbookWeatherService" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_xaBe0MJQEeKy1pHklKiNLg" name="sc_cook_ch4_0050_genericOrderItem" label="sc_cook_ch4_0050_genericOrderItem" dataPackage="_Wf_NgZnQEeK3-suGuCne6w"/>
+  <TalendMetadata:GenericPackage xmi:id="_Wf_NgZnQEeK3-suGuCne6w" dataManager="_xaBe0MJQEeKy1pHklKiNLg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Wf_NgpnQEeK3-suGuCne6w" name="metadata" id="_Wf2DkJnQEeK3-suGuCne6w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0PAyULsmEeKNs48OANRyew" name="orderId" label="orderId" length="10" talendType="id_Integer" originalLength="10"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Wf_NhZnQEeK3-suGuCne6w" name="orderItemId" label="orderItemId" length="10" sourceType="" talendType="id_Integer" pattern="&quot;dd/MM/yyyy&quot;" originalLength="10">
+        <initialValue xmi:id="_Wf_NhpnQEeK3-suGuCne6w" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Wf_NiZnQEeK3-suGuCne6w" name="itemDescription" label="itemDescription" length="10" precision="10" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_Wf_NipnQEeK3-suGuCne6w" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9G0IoL-IEeKdl87f2Bj1rA" name="itemQuantity" label="itemQuantity" talendType="id_Integer"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

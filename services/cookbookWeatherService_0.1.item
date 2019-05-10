@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Services="http://www.talend.org/Services">
+  <Services:ServiceConnection xmi:id="_AfJskDjOEeOkL67Ja7unaQ" servicePort="_ON_LYDjfEeOkL67Ja7unaQ"/>
+  <Services:ServicePort xmi:id="_ON_LYDjfEeOkL67Ja7unaQ" name="GetWeather" id="_NzYTADjfEeOkL67Ja7unaQ" serviceOperation="_ON_LYTjfEeOkL67Ja7unaQ"/>
+  <Services:ServiceOperation xmi:id="_ON_LYTjfEeOkL67Ja7unaQ" label="GetWeather-jo_cook_ch09_weatherService" name="GetWeather" id="_NzYTATjfEeOkL67Ja7unaQ" referenceJobId="_6138oDjdEeOkL67Ja7unaQ"/>
+</xmi:XMI>

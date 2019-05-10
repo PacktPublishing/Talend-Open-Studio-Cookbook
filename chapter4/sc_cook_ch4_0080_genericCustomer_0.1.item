@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_xbOEML-IEeKdl87f2Bj1rA" name="sc_cook_ch4_0080_genericCustomer" label="sc_cook_ch4_0080_genericCustomer" dataPackage="_Wf_NgZnQEeK3-suGuCne6w"/>
+  <TalendMetadata:GenericPackage xmi:id="_Wf_NgZnQEeK3-suGuCne6w" dataManager="_xbOEML-IEeKdl87f2Bj1rA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Wf_NgpnQEeK3-suGuCne6w" name="metadata" id="_Wf2DkJnQEeK3-suGuCne6w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yyDxwL98EeKdl87f2Bj1rA" name="customerId" label="customerId" length="10" talendType="id_Integer" originalLength="10"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0PAyULsmEeKNs48OANRyew" name="name" label="name" length="100" talendType="id_String" originalLength="50"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_heVw0JyWEeK_Lq_Tgq3rQw" name="countryOfResidence" label="countryOfResidence" length="50" talendType="id_String" originalLength="20"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

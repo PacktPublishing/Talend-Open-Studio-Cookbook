@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_n66ikfHQEeK5lbCLDXXL7Q" name="sc_cook_ch9_0040_XMLorderDataCustomerCompleted" dataPackage="_n66ilvHQEeK5lbCLDXXL7Q" XmlFilePath="C:/cookbookData/chapter9/chapter09_jo_0040_orderData.xml" Encoding="ISO-8859-15">
+    <schema xmi:id="_n66ikvHQEeK5lbCLDXXL7Q" LimitBoucle="50" AbsoluteXPathQuery="/customer">
+      <schemaTargets xmi:id="_n66ilfHQEeK5lbCLDXXL7Q" RelativeXPathQuery="customerId" TagName="customerId"/>
+      <schemaTargets xmi:id="_n66ilPHQEeK5lbCLDXXL7Q" RelativeXPathQuery="name" TagName="name"/>
+      <schemaTargets xmi:id="_n66ik_HQEeK5lbCLDXXL7Q" RelativeXPathQuery="age" TagName="age"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_n66ilvHQEeK5lbCLDXXL7Q" name="default" dataManager="_n66ikfHQEeK5lbCLDXXL7Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_n66il_HQEeK5lbCLDXXL7Q" name="metadata" id="_gMeQMPHQEeK5lbCLDXXL7Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n66imvHQEeK5lbCLDXXL7Q" label="customerId" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n66imfHQEeK5lbCLDXXL7Q" label="name" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n66imPHQEeK5lbCLDXXL7Q" label="age" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
