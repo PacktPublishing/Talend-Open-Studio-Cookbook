@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<customer>
+<customerId>1</customerId>
+<name>Jo Ray Smith</name>
+<age>27</age>
+<addresses>
+	<home>
+		<line1>10 Acacia Avenue</line1>
+		<town>London</town>
+		<postcode>LN99 9HN</postcode>
+	</home>
+	<work>
+		<line1>99 Brick Street</line1>
+		<town>Bristol</town>
+		<postcode>BL99 9XY</postcode>
+	</work>
+</addresses>
+<countryOfResidence>UK</countryOfResidence>
+</customer>
+
+

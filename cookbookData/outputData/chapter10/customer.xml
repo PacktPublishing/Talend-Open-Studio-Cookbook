@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<root>
+<customer>
+<customerNumber>1</customerNumber>
+<customerName>Mr. J. Bloggs</customerName>
+</customer>
+<customer>
+<customerNumber>2</customerNumber>
+<customerName>Mrs. A. Smith</customerName>
+</customer>
+</root>

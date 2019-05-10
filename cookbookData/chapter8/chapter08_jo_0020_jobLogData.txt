@@ -1,0 +1,5 @@
+job: jo_cook_ch04_0010_basicMapping.  start 10:21:00 - success
+job: jo_cook_ch04_0020_usingExpressions.  start 10:21:00 - success
+job: jo_cook_ch04_0030_ternaryExpressions.  start 10:21:00 - failure
+job: jo_cook_ch04_0040_tMapVariables.  start 10:21:00 - success
+job: jo_cook_ch08_0020_readRegexData.  start 10:21:00 - failure

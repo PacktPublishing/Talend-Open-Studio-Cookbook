@@ -1,0 +1,29 @@
+orderId,orderItemId,itemDescription,itemQuantity
+1,1,Hammer,1
+1,2,Spanner,2
+1,3,1 inch nails,100
+2,1,Hammer,1
+2,2,Spanner,2
+3,1,Hammer,1
+3,2,Spanner,2
+3,3,1 inch nails,100
+3,4,2 Inch nails,50
+4,1,Hammer,2
+5,1,Spanner,2
+6,1,1 inch nails,200
+7,1,Hammer,2
+8,1,Spanner,4
+9,1,Hammer,1
+9,2,1 inch nails,100
+9,1,Spanner,1
+9,1,Spanner,1
+9,1,Spanner,1
+9,1,Spanner,1
+9,1,Spanner,1
+9,1,Spanner,1
+9,1,Spanner,1
+9,1,Spanner,1
+9,1,Spanner,1
+9,1,Spanner,1
+9,1,Spanner,1
+9,1,Spanner,1

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<order>
+	<orderNumber>2</orderNumber>
+	<orderDate>14/06/2013</orderDate>
+	<items>
+		<item>
+			<itemNumber>1</itemNumber>
+			<product>hammer</product>
+			<number>3</number>
+			<value>30.00</value>
+		</item>
+		<item>
+			<itemNumber>2</itemNumber>
+			<product>spanner</product>
+			<number>4</number>
+			<value>20.00</value>
+		</item>
+	</items>
+</order>

@@ -1,0 +1,5 @@
+customerId,customerURN,source,name,countryOfResidence
+1,CRM1,CRM,JoRaySmith,Germany
+2,CRM2,CRM,BillyOther,UK
+3,CRM3,CRM,JohnnyJamesCooper,France
+4,CRM4,CRM,AlanJohnDoe,USA

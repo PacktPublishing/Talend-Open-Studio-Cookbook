@@ -1,0 +1,9 @@
+name,dateOfBirth,timestamp,age,countryOfBirth
+John Smith,27/11/1990,2012-01-10 10:24:54.953,23,UK
+,27/11/1990,2012-01-10 10:24:54.953,23,UK
+Johnny Smith,,2012-01-10 10:24:54.953,23,France
+J Smith,27/10/2012,,10,USA
+J Smith,27/10/2012,1990-01-10 10:24:54.953,,USA
+J Jones,27/11/1980,2003-01-10 10:24:54.953,10,
+P Jones,,,,UK
+,,,,

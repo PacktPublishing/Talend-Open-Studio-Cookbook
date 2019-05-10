@@ -1,0 +1,5 @@
+firstName,middleName,lastName,dateOfBirth,timestamp,age,countryOfBirth,annualTotal,annualTotalString,prevYearTotal,payment1,payment2,payment3,payment4,payment5,payment6
+Jo,Ray,Smith,27/11/1990,2012-01-10 10:24:54.953,23,Germany,6,6,10,1,1,1,1,1,1
+Johnny,James,Cooper,27/11/1990,2012-01-10 10:24:54.953,23,France,12,12,20,2,2,2,2,2,2
+Alan,John,Doe,27/10/2012,2012-01-10 10:24:54.953,19,USA,24,24,40,4,4,4,4,4,4
+Andrew,Neil,Other,27/11/1980,2012-01-10 10:24:54.953,33,UK,30,30,19,5,5,5,5,5,5

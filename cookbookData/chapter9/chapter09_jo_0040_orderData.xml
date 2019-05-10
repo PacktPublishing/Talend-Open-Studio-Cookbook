@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<customer>
+<customerId>1</customerId>
+<name>Jo Ray Smith</name>
+<age>27</age>
+	<orders>
+		<order>
+			<orderNumber>1</orderNumber>
+			<orderDate>10/06/2013</orderDate>
+			<items>
+				<item>
+					<itemNumber>1</itemNumber>
+					<product>hammer</product>
+					<number>1</number>
+					<value>20.00</value>
+				</item>
+				<item>
+					<itemNumber>2</itemNumber>
+					<product>spanner</product>
+					<number>2</number>
+					<value>10.00</value>
+				</item>
+			</items>
+		</order>
+		<order>
+			<orderNumber>2</orderNumber>
+			<orderDate>14/06/2013</orderDate>
+			<items>
+				<item>
+					<itemNumber>1</itemNumber>
+					<product>hammer</product>
+					<number>3</number>
+					<value>60.00</value>
+				</item>
+				<item>
+					<itemNumber>2</itemNumber>
+					<product>spanner</product>
+					<number>4</number>
+					<value>20.00</value>
+				</item>
+			</items>
+		</order>	
+	</orders>
+</customer>
+
+
