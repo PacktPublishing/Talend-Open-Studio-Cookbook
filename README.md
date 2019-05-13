@@ -1,13 +1,13 @@
 # Talend Open Studio Cookbook
 
-<a href="https://www.packtpub.com/web-development/django-example?utm_source=github&utm_medium=repository&utm_campaign=9781784391911 "><img src="https://prod.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/7/2/7266os.jpg" height="256px" align="right"></a>
+<a href="https://prod.packtpub.com/in/big-data-and-business-intelligence/talend-open-studio-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781782167266"><img src="https://prod.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/7/2/7266os.jpg" height="256px" align="right"></a>
 
-This is the code repository for [Django By Example](https://www.packtpub.com/web-development/django-example?utm_source=github&utm_medium=repository&utm_campaign=9781784391911 ), published by Packt.
+This is the code repository for [Talend Open Studio Cookbook](https://prod.packtpub.com/in/big-data-and-business-intelligence/talend-open-studio-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781782167266 ), published by Packt.
 
 ****
 
 ## What is this book about?
-Django is a powerful Python web framework designed to develop web applications quickly, from simple prototypes to large-scale projects. Django encourages clean, pragmatic design, and provides developers with a comprehensive set of tools to build scalable web applications.
+Talend Open Studio is the world’s leading open source data integration solution that enables rapid development of data transformation processes using an intuitive drag-and-drop user interface.
 
 This book covers the following exciting features:
 * The latest version of Talend Studio for ESB. At the time of writing, this was 5.3
